@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 3rem;
     width: 90%;
-    margin: 0 auto;
+    margin-top: 3rem;
 
     h2 {
         font-family: Poppins;
@@ -17,7 +17,7 @@
     .sections_row {
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 5rem;
 
         section {
             // width: 18.5rem;
@@ -38,7 +38,6 @@
             }
 
             p {
-                width: 17rem;
                 font-family: Poppins, sans-serif;
                 font-weight: 400;
                 font-size: 16px;
@@ -100,12 +99,11 @@
     
 @media screen and (min-width: 1024px) {
     .sections {
+        margin-top: 7.5rem;
         flex-direction: column;
-        gap: 3rem;
-        border: 1px solid red;
-        width: 95%;
-        align-self: center;
-    
+        gap: 4rem;
+        width: 62.5%;
+
         h2 {
             font-size: 36px;
             width: 21.625rem;
@@ -114,15 +112,12 @@
     
         .sections_row {
             flex-direction: row;
-            gap: 2.25rem;
-            justify-content: center;
-            border: 1px solid red;
+            justify-content: space-between;
             width: 100%;
 
     
             section {
-                border: 1px solid red;
-                width: 18.5rem;
+                width: 33%;
                 
                 h2 {
                     font-size: 24px;

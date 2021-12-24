@@ -16,14 +16,14 @@ main {
         color: #2d9cdb;
         font-size: 12px;
         font-weight: 500;
-        width: 10.8rem;
+        align-self: flex-start;
+        width: 95%;
     }
 
     h1 {
         color: #333;
         font-weight: 500;
         font-size: 24px;
-        width: 17rem;
     }
 }
 
@@ -37,19 +37,17 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    width: 87%;
+    width: 86%;
 
     h2 {
         color: #333;
         font-weight: 500;
         font-size: 24px;
-        width: 14.2rem;
     }
 
     p {
         font-size: 12px;
         font-weight: 400;
-        width: 17.2rem;
         color: #4f4f4f;
     }
 }

@@ -18,6 +18,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 3rem;
 }
 
@@ -32,6 +35,7 @@ img {
 }
 
 header {
+  width: 100%;
   padding: .5rem 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -168,14 +172,15 @@ main {
   color: #2d9cdb;
   font-size: 12px;
   font-weight: 500;
-  width: 10.8rem;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 95%;
 }
 
 .text h1 {
   color: #333;
   font-weight: 500;
   font-size: 24px;
-  width: 17rem;
 }
 
 .heroimg {
@@ -193,20 +198,18 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1rem;
-  width: 87%;
+  width: 86%;
 }
 
 .text2 h2 {
   color: #333;
   font-weight: 500;
   font-size: 24px;
-  width: 14.2rem;
 }
 
 .text2 p {
   font-size: 12px;
   font-weight: 400;
-  width: 17.2rem;
   color: #4f4f4f;
 }
 
@@ -375,7 +378,7 @@ form .emailbox #submit {
           justify-content: center;
   gap: 3rem;
   width: 90%;
-  margin: 0 auto;
+  margin-top: 3rem;
 }
 
 .sections h2 {
@@ -394,7 +397,7 @@ form .emailbox #submit {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 1.5rem;
+  gap: 5rem;
 }
 
 .sections .sections_row section {
@@ -423,7 +426,6 @@ form .emailbox #submit {
 }
 
 .sections .sections_row section p {
-  width: 17rem;
   font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -486,16 +488,13 @@ form .emailbox #submit {
 
 @media screen and (min-width: 1024px) {
   .sections {
+    margin-top: 7.5rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 3rem;
-    border: 1px solid red;
-    width: 95%;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    gap: 4rem;
+    width: 62.5%;
   }
   .sections h2 {
     font-size: 36px;
@@ -508,16 +507,13 @@ form .emailbox #submit {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 2.25rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border: 1px solid red;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 100%;
   }
   .sections .sections_row section {
-    border: 1px solid red;
-    width: 18.5rem;
+    width: 33%;
   }
   .sections .sections_row section h2 {
     font-size: 24px;
