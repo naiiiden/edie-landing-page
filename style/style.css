@@ -361,4 +361,166 @@ form .emailbox #submit {
     font-size: 18px;
   }
 }
+
+.sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sections h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  width: 16.2rem;
+}
+
+.sections .sections_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sections .sections_row section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  padding: 1rem .5rem;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+          box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+.sections .sections_row section h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.sections .sections_row section p {
+  width: 17rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4f4f4f;
+}
+
+.sections .sections_row section button {
+  border: none;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #828282;
+  padding: .25rem;
+  width: 7.25rem;
+  border-radius: .75rem;
+}
+
+.sections .sections_row section .pen, .sections .sections_row section .arrows, .sections .sections_row section .storage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+}
+
+.sections .sections_row section .pen {
+  background: #2d9cdb;
+}
+
+.sections .sections_row section .arrows {
+  background: #27ae60;
+}
+
+.sections .sections_row section .arrows .left {
+  margin-right: -.30rem;
+}
+
+.sections .sections_row section .arrows .right {
+  margin-left: -.30rem;
+}
+
+.sections .sections_row section .storage {
+  background: #eb5757;
+}
+
+.sections .sections_row section:hover button {
+  background: #2d9cdb;
+  color: #fff;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+@media screen and (min-width: 1024px) {
+  .sections {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 3rem;
+    border: 1px solid red;
+    width: 95%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .sections h2 {
+    font-size: 36px;
+    width: 21.625rem;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .sections .sections_row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 2.25rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 1px solid red;
+    width: 100%;
+  }
+  .sections .sections_row section {
+    border: 1px solid red;
+    width: 18.5rem;
+  }
+  .sections .sections_row section h2 {
+    font-size: 24px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

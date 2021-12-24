@@ -1,0 +1,133 @@
+.sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    width: 90%;
+    margin: 0 auto;
+
+    h2 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 500;
+        color: #333;
+        width: 16.2rem;
+    }
+
+    .sections_row {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        section {
+            // width: 18.5rem;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem .5rem;
+            border-radius: 1.5rem;
+            box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+            
+            h2 {
+                font-family: Poppins, sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                color: #333;
+                align-self: flex-start;
+            }
+
+            p {
+                width: 17rem;
+                font-family: Poppins, sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                color: #4f4f4f;
+            }
+
+            button {
+                border: none;
+                font-family: Poppins, sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                color: #828282;
+                padding: .25rem;
+                width: 7.25rem;
+                border-radius: .75rem;
+            }
+
+            .pen, .arrows, .storage {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                width: 3rem;
+                height: 3rem;
+                border-radius: 1rem;
+            }
+
+            .pen {
+                background: #2d9cdb;
+            }
+
+            .arrows {
+                background: #27ae60;
+                
+                .left {
+                    margin-right: -.30rem;
+                }
+
+                .right {
+                    margin-left: -.30rem;
+                }
+            }
+
+            .storage {
+                background: #eb5757;
+
+            }
+
+            &:hover {
+                button {
+                    background: #2d9cdb;
+                    color: #fff;
+                    transition: .3s ease;
+                }
+            }
+        }
+    }
+}
+    
+@media screen and (min-width: 1024px) {
+    .sections {
+        flex-direction: column;
+        gap: 3rem;
+        border: 1px solid red;
+        width: 95%;
+        align-self: center;
+    
+        h2 {
+            font-size: 36px;
+            width: 21.625rem;
+            align-self: flex-start;
+        }
+    
+        .sections_row {
+            flex-direction: row;
+            gap: 2.25rem;
+            justify-content: center;
+            border: 1px solid red;
+            width: 100%;
+
+    
+            section {
+                border: 1px solid red;
+                width: 18.5rem;
+                
+                h2 {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
