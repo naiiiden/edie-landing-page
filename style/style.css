@@ -17,75 +17,75 @@ img {
   max-width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-  /*MEDIA QUERY FOR MOBILE MENU*/
-  header {
-    padding: .5rem 1rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  header .logo {
-    font-family: Heebo, sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-    color: #333;
-  }
-  header .hamburger {
-    border: none;
-    position: fixed;
-    right: 3.75%;
-    background-color: transparent;
-    z-index: 99;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  header nav ul {
-    list-style-type: none;
-  }
-  header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-family: Poppins, sans-serif;
-    font-weight: 500;
-  }
-  header nav ul {
-    display: none;
-  }
-  header nav ul.show {
-    border-bottom-left-radius: 4rem;
-    background-color: #6a93cb;
-    background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
-    width: 9rem;
-    right: 0;
-    top: 0;
-    height: 50vh;
-    position: fixed;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    z-index: 98;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 1rem;
-    -webkit-backdrop-filter: blur(1rem);
-            backdrop-filter: blur(1rem);
-  }
+header {
+  padding: .5rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo {
+  font-family: Heebo, sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #333;
+}
+
+header .hamburger {
+  border: none;
+  position: fixed;
+  right: 0;
+  padding: .5rem 1rem;
+  background-color: transparent;
+  z-index: 99;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+
+header nav ul {
+  display: none;
+}
+
+header nav ul.show {
+  border-bottom-left-radius: 4rem;
+  background: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+  width: 9rem;
+  right: 0;
+  top: 0;
+  height: 50vh;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 98;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
 }
 
 @media screen and (min-width: 1024px) {
@@ -99,40 +99,24 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 2rem;
+    padding: 1rem 1.5rem;
   }
   header .logo {
     font-size: 36px;
-    font-family: Heebo, sans-serif;
-    font-weight: 800;
-    color: #333;
   }
   header .hamburger {
     display: none;
   }
-  header nav {
-    display: block;
-    width: 100%;
-  }
   header nav ul {
-    list-style-type: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
     gap: 1rem;
   }
   header nav ul li:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    text-decoration: underline;
   }
   header nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-family: Poppins, sans-serif;
-    font-weight: 500;
     font-size: 24px;
   }
 }
