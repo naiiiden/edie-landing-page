@@ -101,6 +101,7 @@
     .sections {
         margin-top: 7.5rem;
         flex-direction: column;
+        align-self: center;
         gap: 4rem;
         width: 62.5%;
 
@@ -113,11 +114,11 @@
         .sections_row {
             flex-direction: row;
             justify-content: space-between;
-            width: 100%;
+            gap: 0;//note to self: 0 overrides settings from mobile settings
 
     
             section {
-                width: 33%;
+                width: 30%;
                 
                 h2 {
                     font-size: 24px;

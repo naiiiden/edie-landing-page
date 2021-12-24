@@ -1,0 +1,100 @@
+.figures {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+
+    .figure_title {
+        font-family: Poppins, sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: #333;
+        width: 16.7rem;
+    }
+
+    .figure_box {
+        display: flex;
+        flex-direction: column;
+        gap: 1.75rem;
+
+        figure {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+            font-family: Poppins, sans-serif;
+
+            img {
+                border-radius: 12px;
+            }
+
+            figcaption {
+                font-size: 12px;
+                font-weight: 300;
+                color: #828282;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 18px;
+                color: #333;
+                margin-top: -.75rem;
+            }
+        }
+    }
+
+    a {
+        color: #2d9cdb;
+        font-family: Poppins, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .figures {
+        width: 62.5%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.75rem;
+    
+        .figure_title {
+            font-size: 36px;
+            width: 28rem;
+        }
+    
+        .figures_row {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .figure_box {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+    
+            figure {
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
+                font-family: Poppins, sans-serif;
+    
+                figcaption {
+                    font-size: 14px;
+                }
+    
+                p {
+                    font-size: 24px;
+                }
+            }
+        }
+    
+        a {
+            align-self: flex-end;
+        }
+    }
+}
