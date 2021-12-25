@@ -718,7 +718,6 @@ form .emailbox #submit {
 }
 
 .team .members {
-  height: 40vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -797,7 +796,6 @@ form .emailbox #submit {
     font-size: 36px;
   }
   .team .members {
-    height: 50vh;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
@@ -815,6 +813,84 @@ form .emailbox #submit {
   }
   .team .members .row .small {
     width: 80%;
+  }
+}
+
+article {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+article p {
+  font-size: 18px;
+  color: #333;
+}
+
+article .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+article .person img {
+  width: 82px;
+  border-radius: 12px;
+}
+
+article .person .name_job {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+article .person .name_job p {
+  font-size: 16px;
+  color: #333;
+}
+
+article .person .name_job small {
+  font-size: 12px;
+  color: #828282;
+}
+
+@media screen and (min-width: 1024px) {
+  article {
+    width: 62.5%;
+    gap: 2rem;
+  }
+  article p {
+    font-size: 22px;
+    color: #333;
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  article {
+    width: 72.5%;
+    gap: 2rem;
+  }
+  article p {
+    font-size: 36px;
+    color: #333;
+    width: 90%;
   }
 }
 /*# sourceMappingURL=style.css.map */
