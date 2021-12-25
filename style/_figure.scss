@@ -55,6 +55,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    img {
+        max-width: 100%;
+    }
+    
     .figures {
         width: 62.5%;
         display: flex;
@@ -95,6 +99,21 @@
     
         a {
             align-self: flex-end;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .figures {
+        width: 72.5%;
+
+        .figures_row {
+            justify-content: center;
+
+            img {
+                // width: 763px;
+                width: 47.65rem;
+            }
         }
     }
 }

@@ -24,10 +24,6 @@ body {
   gap: 3rem;
 }
 
-img {
-  max-width: 100%;
-}
-
 @media screen and (min-width: 1024px) {
   body {
     gap: 6rem;
@@ -523,6 +519,12 @@ form .emailbox #submit {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .sections {
+    width: 72.5%;
+  }
+}
+
 .figures {
   width: 90%;
   display: -webkit-box;
@@ -599,6 +601,9 @@ form .emailbox #submit {
 }
 
 @media screen and (min-width: 1024px) {
+  img {
+    max-width: 100%;
+  }
   .figures {
     width: 62.5%;
     display: -webkit-box;
@@ -653,6 +658,20 @@ form .emailbox #submit {
   .figures a {
     -ms-flex-item-align: end;
         align-self: flex-end;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .figures {
+    width: 72.5%;
+  }
+  .figures .figures_row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .figures .figures_row img {
+    width: 47.65rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
