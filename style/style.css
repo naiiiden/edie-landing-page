@@ -674,4 +674,147 @@ form .emailbox #submit {
     width: 47.65rem;
   }
 }
+
+.team {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+.team .meet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .5rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+
+.team .meet small {
+  color: #eb5757;
+  font-size: 18px;
+}
+
+.team .meet h2 {
+  font-size: 36px;
+  color: #333;
+  width: 17.5rem;
+}
+
+.team .meet p {
+  font-size: 16px;
+  color: #4f4f4f;
+  width: 17.063rem;
+}
+
+.team .members {
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .5rem;
+}
+
+.team .members img {
+  width: 45%;
+  border-radius: 24px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.team .members .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+.team .members .row img {
+  width: 100%;
+}
+
+.team .members .row .small {
+  width: 90%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+@media screen and (min-width: 1024px) {
+  .team {
+    width: 62.5%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .team .meet {
+    gap: .5rem;
+  }
+  .team .meet small {
+    color: #eb5757;
+    font-size: 18px;
+  }
+  .team .meet h2 {
+    font-size: 32px;
+  }
+  .team .meet p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .team {
+    width: 72.5%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .team .meet {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    gap: .5rem;
+  }
+  .team .meet h2 {
+    font-size: 36px;
+  }
+  .team .members {
+    height: 50vh;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    gap: 1rem;
+  }
+  .team .members img {
+    width: 40%;
+  }
+  .team .members .row {
+    width: 40%;
+    gap: 1rem;
+  }
+  .team .members .row img {
+    width: 100%;
+  }
+  .team .members .row .small {
+    width: 80%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
