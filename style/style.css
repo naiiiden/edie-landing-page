@@ -26,7 +26,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   body {
-    gap: 6rem;
+    gap: 10rem;
   }
 }
 
@@ -342,15 +342,19 @@ form .emailbox #submit {
   }
   form .emailbox #email::-webkit-input-placeholder {
     font-size: 18px;
+    margin-left: .5rem;
   }
   form .emailbox #email:-ms-input-placeholder {
     font-size: 18px;
+    margin-left: .5rem;
   }
   form .emailbox #email::-ms-input-placeholder {
     font-size: 18px;
+    margin-left: .5rem;
   }
   form .emailbox #email::placeholder {
     font-size: 18px;
+    margin-left: .5rem;
   }
   form .emailbox #submit {
     right: 1.5%;
