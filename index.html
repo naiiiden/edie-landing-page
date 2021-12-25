@@ -18,10 +18,10 @@
       <nav>
         <ul class="nav-ul" id="nav-ul">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Our Works</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#works">Our Works</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#footer">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -48,7 +48,7 @@
       </form>
     </main>
 
-    <div class="sections">
+    <div class="sections" id="services">
       <h2 class="sections_title">We offer high demand services</h2>
       <div class="sections_row">
         <section>
@@ -79,7 +79,7 @@
       </div>
     </div>
 
-    <div class="figures">
+    <div class="figures" id="works">
       <h2 class="figure_title">Good design means good business</h2>
       
       <div class="figures_row">
@@ -128,7 +128,7 @@
       </div>
     </section>
 
-    <article>
+    <article id="clients">
       <p>“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</p>
       
       <div class="person">
@@ -139,6 +139,37 @@
         </div>
       </div>
     </article>
+
+    <footer id="footer">
+      <div class="footercontainer">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Works</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+  
+        <div class="contacts">
+          <div class="logo">Edie</div>
+          <ul>
+            <li><a href="https://www.instagram.com/"><img src="assets/instagram.svg"></a></li>
+            <li><a href="https://www.linkedin.com/"><img src="assets/linkedin.svg"></a></li>
+            <li><a href="https://www.twitter.com/"><img src="assets/twitter.svg"></a></li>
+          </ul>
+        </div>
+        
+        <form>
+          <label for="email">Want us to contact you?</label>
+          <div class="emailbox">
+            <input type="email" id="email" name="email" placeholder="Email">
+            <input type="submit" id="submit" name="submit" value="Join">
+          </div>
+        </form>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
