@@ -13,7 +13,8 @@ main {
     width: 86%;
 
     p {
-        color: #2d9cdb;
+        // color: #2d9cdb;
+        color: #175E87;
         font-size: 12px;
         font-weight: 500;
         align-self: flex-start;
@@ -59,7 +60,8 @@ form {
     gap: .25rem;
 
     label {
-        color: #828282;
+        // color: #828282;
+        color: #595959;
         font-family: Poppins, sans-serif;
         font-weight: 500;
         font-size: 10px;
@@ -88,13 +90,15 @@ form {
             position: absolute;
             right: 3%;
             bottom: 9%;
-            background-color: #2d9cdb;
+            // background-color: #2d9cdb;
+            background-color: #329EDC;
             border-radius: 12px;
             font-size: 14px;
             border: none;
             width: 4.4rem;
             height: 2.4rem;
-            color: #f2f2f2;
+            // color: #f2f2f2;
+            color: #000;
             font-family: Poppins, sans-serif;
         }
     }
