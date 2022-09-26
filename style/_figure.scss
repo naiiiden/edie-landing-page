@@ -30,10 +30,11 @@
             figcaption {
                 font-size: 12px;
                 font-weight: 300;
-                color: #828282;
+                // color: #828282;
+                color: #595959;
             }
 
-            p {
+            h3 {
                 font-weight: 500;
                 font-size: 18px;
                 color: #333;
@@ -43,7 +44,8 @@
     }
 
     a {
-        color: #2d9cdb;
+        // color: #2d9cdb;
+        color: #175E87;
         font-family: Poppins, sans-serif;
         font-weight: 500;
         font-size: 18px;
@@ -91,7 +93,7 @@
                     font-size: 14px;
                 }
     
-                p {
+                h3 {
                     font-size: 24px;
                 }
             }

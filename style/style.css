@@ -415,16 +415,16 @@ form .emailbox #submit {
 .figures .figure_box figure figcaption {
   font-size: 12px;
   font-weight: 300;
-  color: #828282;
+  color: #595959;
 }
-.figures .figure_box figure p {
+.figures .figure_box figure h3 {
   font-weight: 500;
   font-size: 18px;
   color: #333;
   margin-top: -0.75rem;
 }
 .figures a {
-  color: #2d9cdb;
+  color: #175E87;
   font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -467,7 +467,7 @@ form .emailbox #submit {
   .figures .figure_box figure figcaption {
     font-size: 14px;
   }
-  .figures .figure_box figure p {
+  .figures .figure_box figure h3 {
     font-size: 24px;
   }
   .figures a {
