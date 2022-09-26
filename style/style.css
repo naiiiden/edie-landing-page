@@ -320,7 +320,7 @@ form .emailbox #submit {
   font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #828282;
+  color: #4F4F4F;
   padding: 0.25rem;
   width: 7.25rem;
   border-radius: 0.75rem;
@@ -338,7 +338,7 @@ form .emailbox #submit {
   background: #2d9cdb;
 }
 .sections .sections_row section .arrows {
-  background: #27ae60;
+  background: #1E8549;
 }
 .sections .sections_row section .arrows .left {
   margin-right: -0.3rem;
