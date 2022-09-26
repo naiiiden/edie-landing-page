@@ -71,7 +71,7 @@ form {
         position: relative;
         width: 17.6rem;
 
-        #email {
+        .email {
             width: 17.3rem;
             height: 2.9rem;
             border: none;
@@ -86,7 +86,7 @@ form {
             }
         }
 
-        #submit {
+        .submit {
             position: absolute;
             right: 3%;
             bottom: 9%;
@@ -158,10 +158,11 @@ form {
         .emailbox {
             width: 22rem;
     
-            #email {
+            .email {
                 width: 21.875rem;
                 height: 3.5rem;
                 background: #f2f2f2;
+                // background: red;
 
                 &::placeholder {
                     font-size: 18px;
@@ -169,7 +170,7 @@ form {
                 }
             }
     
-            #submit {
+            .submit {
                 right: 1.5%;
                 bottom: 5.5%;
                 width: 5.875rem;

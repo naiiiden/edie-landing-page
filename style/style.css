@@ -164,32 +164,32 @@ form .emailbox {
   position: relative;
   width: 17.6rem;
 }
-form .emailbox #email {
+form .emailbox .email {
   width: 17.3rem;
   height: 2.9rem;
   border: none;
   border-radius: 12px;
   background: #f2f2f2;
 }
-form .emailbox #email::-moz-placeholder {
+form .emailbox .email::-moz-placeholder {
   color: #bdbdbd;
   font-family: Poppins, sans-serif;
   font-size: 14px;
   padding: 0 1rem;
 }
-form .emailbox #email:-ms-input-placeholder {
+form .emailbox .email:-ms-input-placeholder {
   color: #bdbdbd;
   font-family: Poppins, sans-serif;
   font-size: 14px;
   padding: 0 1rem;
 }
-form .emailbox #email::placeholder {
+form .emailbox .email::placeholder {
   color: #bdbdbd;
   font-family: Poppins, sans-serif;
   font-size: 14px;
   padding: 0 1rem;
 }
-form .emailbox #submit {
+form .emailbox .submit {
   position: absolute;
   right: 3%;
   bottom: 9%;
@@ -248,24 +248,24 @@ form .emailbox #submit {
   form .emailbox {
     width: 22rem;
   }
-  form .emailbox #email {
+  form .emailbox .email {
     width: 21.875rem;
     height: 3.5rem;
     background: #f2f2f2;
   }
-  form .emailbox #email::-moz-placeholder {
+  form .emailbox .email::-moz-placeholder {
     font-size: 18px;
     margin-left: 0.5rem;
   }
-  form .emailbox #email:-ms-input-placeholder {
+  form .emailbox .email:-ms-input-placeholder {
     font-size: 18px;
     margin-left: 0.5rem;
   }
-  form .emailbox #email::placeholder {
+  form .emailbox .email::placeholder {
     font-size: 18px;
     margin-left: 0.5rem;
   }
-  form .emailbox #submit {
+  form .emailbox .submit {
     right: 1.5%;
     bottom: 5.5%;
     width: 5.875rem;
@@ -646,6 +646,9 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+footer .footer-label {
+  color: #9E9E9E;
 }
 footer .footercontainer {
   width: 85%;
